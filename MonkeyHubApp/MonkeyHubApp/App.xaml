@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonkeyHubApp.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="minhaCor">Green</Color>
+            <Font x:Key="minhaFonte">Small</Font>
+            <Style x:Key="danger" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Red"/>
+                <Setter Property="Font" Value="{StaticResource minhaFonte}"/>
+            </Style>
+            <Style x:Key="info" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Blue"/>
+                <Setter Property="Font" Value="Large"/>
+                <Setter Property="BorderRadius" Value="10"/>
+            </Style>
+            <Style x:Key="styleLabel1" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="Font" Value="Medium"/>
+            </Style>
+            <Style x:Key="styleLabel2" TargetType="Label">
+                <Setter Property="TextColor" Value="Gray"/>
+                <Setter Property="Font" Value="Small"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
